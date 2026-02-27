@@ -1,0 +1,125 @@
+/* Search Container */
+
+.search-container{
+
+max-width:800px;
+margin:auto;
+margin-top:40px;
+
+}
+
+
+/* Search Title */
+
+.search-title{
+
+text-align:center;
+margin-bottom:25px;
+font-weight:bold;
+animation:fadeIn 1s ease;
+
+}
+
+
+/* Search Inputs */
+
+.search-input{
+
+margin-bottom:15px;
+border-radius:8px;
+padding:10px;
+transition:0.3s;
+
+}
+
+
+.search-input:focus{
+
+border-color:#0d6efd;
+box-shadow:0px 0px 10px rgba(13,110,253,0.4);
+
+}
+
+
+/* Search Button */
+
+.search-btn{
+
+width:100%;
+padding:10px;
+border-radius:8px;
+font-weight:bold;
+transition:0.3s;
+
+}
+
+
+.search-btn:hover{
+
+transform:scale(1.05);
+
+}
+
+
+/* Flight Cards */
+
+.flight-card{
+
+border-radius:10px;
+box-shadow:0px 4px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+animation:slideUp 0.5s ease;
+
+}
+
+
+.flight-card:hover{
+
+transform:translateY(-5px);
+box-shadow:0px 8px 20px rgba(0,0,0,0.2);
+
+}
+
+
+/* No Flights Message */
+
+.no-flight{
+
+text-align:center;
+font-size:18px;
+font-weight:bold;
+color:red;
+margin-top:20px;
+animation:fadeIn 1s ease;
+
+}
+
+
+/* Animations */
+
+@keyframes fadeIn{
+
+from{
+opacity:0;
+}
+
+to{
+opacity:1;
+}
+
+}
+
+
+@keyframes slideUp{
+
+from{
+transform:translateY(20px);
+opacity:0;
+}
+
+to{
+transform:translateY(0px);
+opacity:1;
+}
+
+}
